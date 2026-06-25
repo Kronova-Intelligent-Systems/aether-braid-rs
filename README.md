@@ -12,13 +12,13 @@ This repository contains a zero-dependency, high-performance Rust implementation
 
 It specifically simulates a 3-qubit localized array, rigorously enforcing the **Golden Chain Hamiltonian** constraints. By mathematically forbidding "00" adjacencies (the trivial vacuum fusion channels), the algorithm successfully applies the Quasicrystal Inflation Code (QIC) B-Gate formulation:
 
-## **![][image1]How It Works**
+## **![image1][] How It Works**
 
 Rather than relying on active, software-driven syndrome measurements (which require massive qubit overhead), this code demonstrates **topological error correction**.
 
 1. The simulation initializes an 8-dimensional Hilbert space (3 qubits).  
 2. It introduces a high-intensity simulated environmental noise/decoherence factor.  
-3. It applies the QIC algorithm, which utilizes the Golden Ratio (![][image2]) to mathematically filter out non-topological errors and safely acquire the braided topological phases for valid permutations.
+3. It applies the QIC algorithm, which utilizes the Golden Ratio ![image2][] to mathematically filter out non-topological errors and safely acquire the braided topological phases for valid permutations.
 
 ## **Running the Simulation**
 
