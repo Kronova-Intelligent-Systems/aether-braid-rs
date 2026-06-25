@@ -35,4 +35,4 @@ This code acts as the functional, algorithmic proof for the theories discussed i
 
 [image1]: ![image1](https://quantumone.b-cdn.net/kronova/Shape1.svg)
 
-[image2] : ! [image2](https://quantumone.b-cdn.net/kronova/Shape2.svg)
+[image2] : ![image2](https://quantumone.b-cdn.net/kronova/Shape2.svg)
