@@ -24,8 +24,8 @@ Rather than relying on active, software-driven syndrome measurements (which requ
 
 While the Cargo crate is being finalized, you can compile and run the standalone simulation directly using rustc:
 
-rustc src/main.rs  
-./main  
+rustc qic-bgate-sim.rs  
+./qic-bgate-sim.rs  
 
 ## References
 
