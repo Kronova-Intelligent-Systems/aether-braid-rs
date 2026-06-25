@@ -35,6 +35,6 @@ This code acts as the functional, algorithmic proof for the theories discussed i
 
 *Built for Kronova AetherNet*
 
-[image1]: https://quantumone.b-cdn.net/kronova/Shape1.svg
+[image1]: https://quantumone.b-cdn.net/kronova/Shape1_light.svg
 
-[image2]: https://quantumone.b-cdn.net/kronova/Shape2.svg
+[image2]: https://quantumone.b-cdn.net/kronova/Shape2_light.svg
