@@ -14,7 +14,7 @@ It specifically simulates a 3-qubit localized array, rigorously enforcing the **
 
 ![image1][image1]
 
-## How It Works**
+## **How It Works**
 
 Rather than relying on active, software-driven syndrome measurements (which require massive qubit overhead), this code demonstrates **topological error correction**.
 
