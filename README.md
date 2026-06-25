@@ -12,7 +12,9 @@ This repository contains a zero-dependency, high-performance Rust implementation
 
 It specifically simulates a 3-qubit localized array, rigorously enforcing the **Golden Chain Hamiltonian** constraints. By mathematically forbidding "00" adjacencies (the trivial vacuum fusion channels), the algorithm successfully applies the Quasicrystal Inflation Code (QIC) B-Gate formulation:
 
-## **![image1][image1] How It Works**
+![image1][image1]
+
+## How It Works**
 
 Rather than relying on active, software-driven syndrome measurements (which require massive qubit overhead), this code demonstrates **topological error correction**.
 
@@ -33,6 +35,6 @@ This code acts as the functional, algorithmic proof for the theories discussed i
 
 *Built for Kronova AetherNet*
 
-[image1]: https://quantumone.b-cdn.net/kronova/Shape1.svg)
+[image1]: https://quantumone.b-cdn.net/kronova/Shape1.svg
 
 [image2]: https://quantumone.b-cdn.net/kronova/Shape2.svg
