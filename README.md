@@ -20,7 +20,9 @@ Rather than relying on active, software-driven syndrome measurements (which requ
 
 1. The simulation initializes an 8-dimensional Hilbert space (3 qubits).  
 2. It introduces a high-intensity simulated environmental noise/decoherence factor.  
-3. It applies the QIC algorithm, which utilizes the Golden Ratio ![image2][image2] to mathematically filter out non-topological errors and safely acquire the braided topological phases for valid permutations.
+3. It applies the QIC algorithm, which utilizes the Golden Ratio 
+![image2][image2] 
+to mathematically filter out non-topological errors and safely acquire the braided topological phases for valid permutations.
 
 ## **Running the Simulation**
 
