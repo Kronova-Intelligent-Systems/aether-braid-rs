@@ -2,5 +2,11 @@
 name = "aether_braid_rs"
 version = "0.1.0"
 edition = "2024"
+authors = ["Robert Mourey Jr. <your-email@example.com>"]
+description = "A zero-dependency 3-Qubit localized B-Gate simulation of the Quasicrystal Inflation Code (QIC) for topological quantum error correction."
+repository = "https://github.com/kronova-intelligent-systems/aether-braid-rs"
+license = "MIT OR Apache-2.0" # Highly recommended standard for Rust crates
+keywords = ["quantum", "physics", "simulation", "topological", "fibonacci"]
+categories = ["science", "simulation", "cryptography"]
 
 [dependencies]
