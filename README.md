@@ -1,42 +1,38 @@
-# **aether-braid-rs**
+# aether-braid-rs
 
-**QIC B-Gate (Quantum Information Correction Braiding Gate) Simulation**
+**QIC B-Gate (Quantum Information Correction Braiding Gate) Simulation** *A Foundational Engine for the Decentralized Topological Quantum Network (DTQN)*
 
 *Author: Robert Mourey Jr. | Kronova AetherNet* *ORCID: 0000-0002-4641-2743*
 
-⚠️ **Note:** This is a temporary README. The full repository is currently being transitioned into a formal Rust Cargo crate (aether-braid-rs), complete with an extensive unit testing suite and modularized complex math engine. This update will be pushed shortly.
+---
 
-## **Overview**
+## Overview
+`aether-braid-rs` is a zero-dependency, high-performance Rust Cargo crate that models the physics of fault-tolerant topological quantum computing. It serves as the algorithmic proof for the theories detailed in the arXiv preprint: **"The Fibonacci Architecture of Quantum Error Correction: Golden Ratio Dynamics in Topological Quantum Computing."**
 
-This repository contains a zero-dependency, high-performance Rust implementation modeling the physics described in my forthcoming arXiv paper: **"The Fibonacci Architecture of Quantum Error Correction: Golden Ratio Dynamics in Topological Quantum Computing."**
+The crate simulates a 3-qubit localized array, rigorously enforcing the **Golden Chain Hamiltonian** constraints. By mathematically forbidding "00" adjacencies (the trivial vacuum fusion channels), the algorithm applies the Quasicrystal Inflation Code (QIC) B-Gate formulation to filter out decoherence:
 
-It specifically simulates a 3-qubit localized array, rigorously enforcing the **Golden Chain Hamiltonian** constraints. By mathematically forbidding "00" adjacencies (the trivial vacuum fusion channels), the algorithm successfully applies the Quasicrystal Inflation Code (QIC) B-Gate formulation:
+$$B_{gate} = R_I P_{local} + R_\tau (I - P_{local})$$
 
-![image1][image1]
+## The Vision: A Decentralized Topological Quantum Network (DTQN)
+Maintaining a fragile, highly entangled quantum state across a distributed network of classical machines has historically been deemed impossible due to decoherence. `aether-braid-rs` bypasses this limitation by simulating the *topological logic* of quantum systems rather than physical qubits. 
 
-## **How It Works**
+By utilizing **Canton Network's** privacy-enabled blockchain architecture, the computational workload of this simulation can be sharded and executed across consumer-grade computing power. The Canton ledger ensures the mathematical state of the topological simulation remains consistent across all participating nodes, effectively creating a globally synchronized, fault-tolerant Decentralized Topological Quantum Network (DTQN) without the need for cryogenic supercomputers.
 
-Rather than relying on active, software-driven syndrome measurements (which require massive qubit overhead), this code demonstrates **topological error correction**.
+## Getting Started
 
-1. The simulation initializes an 8-dimensional Hilbert space (3 qubits).  
-2. It introduces a high-intensity simulated environmental noise/decoherence factor.  
-3. It applies the QIC algorithm, which utilizes the Golden Ratio 
-![image2][image2] 
-to mathematically filter out non-topological errors and safely acquire the braided topological phases for valid permutations.
+Because this is a pure Rust implementation with zero external dependencies, running the simulation is incredibly fast and lightweight.
 
-## **Running the Simulation**
+**Prerequisites:**
+* [Rust & Cargo](https://rustup.rs/) installed.
 
-While the Cargo crate is being finalized, you can compile and run the standalone simulation directly using rustc:
+**Build and Run:**
+```bash
+# Clone the repository
+git clone git@github.com:kronova-intelligent-systems/aether-braid-rs.git
+cd aether-braid-rs
 
-rustc qic-bgate-sim.rs  
-./qic-bgate-sim.rs
+# Build the crate
+cargo build --release
 
-## **References**
-
-This code acts as the functional, algorithmic proof for the theories discussed in my research paper. A direct link to the published quant-ph arXiv preprint will be added here once the endorsement and publication process is complete.
-
-*Built for Kronova AetherNet*
-
-[image1]: https://quantumone.b-cdn.net/kronova/Shape1_light.svg
-
-[image2]: https://quantumone.b-cdn.net/kronova/Shape2_light.svg
+# Run the 3-Qubit QIC Simulation
+cargo run
