@@ -1,5 +1,7 @@
 
-# aether-braid-rs [![DOI](https://zenodo.org/badge/1271655010.svg)](https://doi.org/10.5281/zenodo.22849853)
+# aether-braid-rs
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22849853.svg)](https://doi.org/10.5281/zenodo.22849853)
 
 **QIC B-Gate (Quantum Information Correction Braiding Gate) Simulation** *A Foundational Engine for the Decentralized Topological Quantum Network (DTQN)*
 
